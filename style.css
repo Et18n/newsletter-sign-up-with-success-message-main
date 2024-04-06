@@ -191,12 +191,14 @@ body {
     max-height: fit-content;
     flex-direction: column;
     /* transform: translateY(40px); */
+    z-index: 0;
   }
   .img {
     content: url("assets/images/illustration-sign-up-mobile.svg");
     position: absolute;
     max-width: 100%;
     height: auto;
+    z-index: 10;
 
     top: 0;
     left: 0;
